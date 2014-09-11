@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Helvetica", sans-serif;
+	font-weight: 200;
+	background: #EBF2EF;
+	font-size: 16px;
+}
+
+h1 {
+	font-weight: 200;
+	font-size: 28px;
+	text-align: center;
+	padding: 8px 0 0 0;
+}
+
+h2 {
+	font-weight: 200;
+	font-size: 24px;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 18px;
+	margin: 5px 0 0 0;
+}
+
+header {
+	height: 50px;
+	background: #abcabc;
+	margin: 0 0 20px 0;
+	position: relative;
+}
+
+table {
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 0 8px;
+}
+
+#back {
+	position: absolute;
+	top: 15px;
+	left: 30px;
+	color: black;
+	font-size: .9em; 
+}
+
+#col1 {
+	width: 25%;
+	margin: 0 auto;
+	padding: 2% 4%;
+}
+
+.col1move {
+	width: 27%;
+	float: left;
+	margin: 0;
+	border-right: 2.7px solid #abcabc;
+}
+
+#col2 {
+	width: 60%;
+	float: left;
+	min-height: 600px;
+	padding: 2%;
+}
+
+#col3 {
+	width: 48%;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.ingredient {
+
+}
+
+.added {
+	background: #ffffff;
+	padding: 0 5px;
+}
+
+input {
+	height: 30px;
+	width: 220px;
+	font-family: sans-serif;
+	font-size: 1em;
+}
+
+#search {
+	width: 220px;
+}
+
+.add, .remove {
+	background: #abcabc;
+	width: 30px;
+}
+
+td {
+	vertical-align: middle;
+	height: 30px;
+}
+
+td a {
+	text-align: center;
+}
+
+p {
+	margin: 0 0 5px 0;
+}
+
+.label {
+	margin: 40px 0 5px 0;
+}
+
+button {
+	width: 60px;
+	height: 30px;
+	margin: 20px 0 0 194px;
+	background: #abcabc;
+	border: none;
+	cursor: pointer;
+	font-size: .9em;
+}
+
+.result {
+	width: 46%;
+	margin: 0 2%;
+	float: left;
+	cursor: pointer;
+}
+
+.result p {
+	font-size: .9em;
+}
+
+.photo {
+	width: 100%;
+	background: #abcabc;
+}
+
+.photo img {
+	width: 100%;
+}
+
+.bigphoto {
+	width: 100%;
+	background: #abcabc;
+}
+
+.bigphoto img {
+	width: 100%;
+}
+
+.ingredients {
+	float: left;
+	width: 50%;
+	font-size: .9em;
+
+}
+
+.ingredients li {
+	list-style-type: none;
+}
+
+.instructions {
+	font-size: .9em;
+}
